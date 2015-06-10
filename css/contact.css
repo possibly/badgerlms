@@ -1,0 +1,12 @@
+input{
+  padding:10px;
+  margin-bottom: 15px;
+  color: black;
+  width: 345px; 
+}
+
+textarea{
+  padding: 10px;
+  color: black;
+  width: 345px;
+}
