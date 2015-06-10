@@ -16,7 +16,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: #332C2F;
     border-width: 3px;
 }
 
@@ -178,7 +178,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/opacityDARK.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -385,9 +385,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #f05f40;
+    border-color: #332C2F;
     color: #fff;
-    background-color: #f05f40;
+    background-color: #332C2F;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -399,9 +399,10 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
-    color: #fff;
-    background-color: #ee4b28;
+    /*577492*/
+    border-color: #fff;
+    color: #000; 
+    background-color: #fff;
 }
 
 .btn-primary:active,
