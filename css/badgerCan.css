@@ -8,29 +8,3 @@
   padding-right:.1em; 
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
-
-.canIconStackGroup{
-  color:#332C2F;
-  -webkit-transition: color 0.35s ease-in-out;
-  -moz-transition: color 0.35s ease-in-out;
-  transition: color 0.35s ease-in-out;
-}
-
-.canIconStackGroup button{
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-color:#332C2F;
-  color: #fff;
-  -webkit-transition: background-color 0.35s ease-in-out;
-  -moz-transition: background-color 0.35s ease-in-out;
-  transition: background-color 0.35s ease-in-out;
-}
-
-.canIconStackGroup:hover button{
-  background-color:#fff;
-  color:#332C2F;
-}
-
-.canIconStackGroup:hover{
-  color:#fff;
-}

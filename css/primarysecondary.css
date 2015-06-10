@@ -1,0 +1,68 @@
+section.primary{
+  background-color: white;
+  color: black;
+}
+
+.primary .canIconStackGroup{
+  color: white;
+  -webkit-transition: color 0.35s ease-in-out;
+  -moz-transition: color 0.35s ease-in-out;
+  transition: color 0.35s ease-in-out;
+}
+
+.primary .canIconStackGroup button{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  color: #332C2F;
+  -webkit-transition: background-color 0.35s ease-in-out;
+  -moz-transition: background-color 0.35s ease-in-out;
+  transition: background-color 0.35s ease-in-out;
+}
+
+.primary .canIconStackGroup:hover button{
+  background-color: #332C2F;
+  color: white;
+}
+
+.primary .canIconStackGroup:hover{
+  color:#332C2F;
+}
+
+/* Secondary (black bg) */
+
+section.secondary{
+  background-color: black;
+  color: white
+}
+
+section.secondary hr{
+  border-color: white;
+}
+
+.secondary .canIconStackGroup{
+  color:#332C2F;
+  -webkit-transition: color 0.35s ease-in-out;
+  -moz-transition: color 0.35s ease-in-out;
+  transition: color 0.35s ease-in-out;
+}
+
+.secondary .canIconStackGroup button{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color:#332C2F;
+  color: #fff;
+  -webkit-transition: background-color 0.35s ease-in-out;
+  -moz-transition: background-color 0.35s ease-in-out;
+  transition: background-color 0.35s ease-in-out;
+}
+
+.secondary .canIconStackGroup:hover button{
+  background-color:#fff;
+  color:#332C2F;
+}
+
+.secondary .canIconStackGroup:hover{
+  color:#fff;
+}
+
