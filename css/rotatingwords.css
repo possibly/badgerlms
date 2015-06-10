@@ -1,6 +1,9 @@
 .rw-sentence{
-  margin: 0;
-  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80%;
+  font-size: 18px;
+  margin-bottom: 50px;
 }
 .rw-sentence span{
   font-weight: normal;
@@ -8,6 +11,7 @@
 .rw-words{
   display: inline;
   text-indent: 10px;
+  line-height: 1.3;
 }
 .rw-words-1 span{
   position: absolute;
