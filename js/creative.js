@@ -45,4 +45,16 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    var in_view = new Waypoint.Inview({
+        element: $('#15years')[0],
+        enter: function() {
+            $('#15years').addClass('start');
+            $('#dedservice').addClass('start');
+        },
+        exit: function() {  // optionally
+            $('#15years').removeClass('start');
+            $('#dedservice').removeClass('start');
+        }
+    });
+
 })(jQuery); // End of use strict

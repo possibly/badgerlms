@@ -20,12 +20,12 @@ section.primary{
   transition: background-color 0.35s ease-in-out;
 }
 
-.primary .canIconStackGroup:hover button{
+.primary .canIconStackGroup .start button{
   background-color: #332C2F;
   color: white;
 }
 
-.primary .canIconStackGroup:hover{
+.primary .canIconStackGroup .start{
   color:#332C2F;
 }
 
@@ -42,9 +42,9 @@ section.secondary hr{
 
 .secondary .canIconStackGroup{
   color:#332C2F;
-  -webkit-transition: color 0.35s ease-in-out;
-  -moz-transition: color 0.35s ease-in-out;
-  transition: color 0.35s ease-in-out;
+  -webkit-transition: color 1s ease-in-out;
+  -moz-transition: color 1s ease-in-out;
+  transition: color 1s ease-in-out;
 }
 
 .secondary .canIconStackGroup button{
@@ -52,17 +52,17 @@ section.secondary hr{
   margin-bottom: 30px;
   background-color:#332C2F;
   color: #fff;
-  -webkit-transition: background-color 0.35s ease-in-out;
-  -moz-transition: background-color 0.35s ease-in-out;
-  transition: background-color 0.35s ease-in-out;
+  -webkit-transition: background-color 1s ease-in-out;
+  -moz-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
 }
 
-.secondary .canIconStackGroup:hover button{
+.secondary .canIconStackGroup.start button{
   background-color:#fff;
   color:#332C2F;
 }
 
-.secondary .canIconStackGroup:hover{
+.secondary .canIconStackGroup.start{
   color:#fff;
 }
 
